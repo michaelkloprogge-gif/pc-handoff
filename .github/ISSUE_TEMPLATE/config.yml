@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: How PC Hand-off works
+    url: https://github.com/michaelkloprogge-gif/pc-handoff#readme
+    about: What PC Hand-off checks, how to use it, and answers to common questions.

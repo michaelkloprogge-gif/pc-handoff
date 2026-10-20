@@ -1,0 +1,236 @@
+Start	Start
+Settings	Ustawienia
+Version {0}	Wersja {0}
+Cancel	Anuluj
+Stopping...	Zatrzymywanie...
+Run as administrator	Uruchom jako administrator
+Something went wrong:	Coś poszło nie tak:
+Report this problem? (Opens GitHub with the details filled in - you see everything before you send it.)	Zgłosić ten problem? (Otwiera GitHub z wypełnionymi danymi - widzisz wszystko przed wysłaniem.)
+Look again	Sprawdź ponownie
+What	Co
+Status	Stan
+Desktop	Pulpit
+Documents	Dokumenty
+Pictures	Obrazy
+Music	Muzyka
+Videos	Wideo
+Downloads	Pobrane
+Looking at this PC	Sprawdzanie tego komputera
+Step	Krok
+{0} step(s) left.	Pozostało kroków: {0}.
+Click a step in the list first.	Najpierw kliknij krok na liście.
+How PC Hand-off looks and behaves. Changes are saved straight away.	Jak PC Hand-off wygląda i działa. Zmiany są zapisywane od razu.
+Language	Język
+Takes effect when PC Hand-off restarts.	Działa po ponownym uruchomieniu PC Hand-off.
+Automatic (Windows language)	Automatycznie (język Windows)
+Restart now	Uruchom ponownie teraz
+Theme	Motyw
+Light, dark, or the same as Windows. Takes effect when PC Hand-off restarts.	Jasny, ciemny lub taki jak Windows. Działa po ponownym uruchomieniu PC Hand-off.
+Same as Windows	Taki jak Windows
+Light	Jasny
+Dark	Ciemny
+Updates	Aktualizacje
+You have version {0}. New versions come from github.com/{1} and are checked against GitHub's checksum before they are installed.	Masz wersję {0}. Nowe wersje pochodzą z github.com/{1} i przed instalacją są sprawdzane sumą kontrolną GitHub.
+Check for updates when PC Hand-off starts	Sprawdzaj aktualizacje przy uruchomieniu PC Hand-off
+Check for updates now	Sprawdź aktualizacje teraz
+Downloading...	Pobieranie...
+Install	Instalacja
+PC Hand-off runs straight from the file - installing is not needed. Install it if you want it in the Start menu and in Settings > Apps.	PC Hand-off działa bezpośrednio z pliku - instalacja nie jest potrzebna. Zainstaluj go, jeśli chcesz mieć go w menu Start i w Ustawienia > Aplikacje.
+Install on this PC	Zainstaluj na tym komputerze
+Uninstall	Odinstaluj
+Files	Pliki
+PC Hand-off keeps a log of what it did and its settings in {0}.	PC Hand-off przechowuje dziennik swoich działań i ustawienia w {0}.
+Open the log	Otwórz dziennik
+Open the folder	Otwórz folder
+Nothing has been logged yet.	Nic jeszcze nie zapisano w dzienniku.
+Help and feedback	Pomoc i opinie
+Something not working, or an idea? It opens a report on GitHub with the version, Windows and recent errors already filled in (your name, folders and PC name are blanked out) - you see everything before you send it.	Coś nie działa albo masz pomysł? Otwiera zgłoszenie na GitHub z wypełnioną wersją, Windows i ostatnimi błędami (twoje imię, foldery i nazwa komputera są ukryte) - widzisz wszystko przed wysłaniem.
+Report a problem...	Zgłoś problem...
+Suggest an idea...	Zaproponuj pomysł...
+This opens GitHub with a new problem report, filled in with:	To otwiera GitHub z nowym zgłoszeniem problemu, wypełnionym danymi:
+You can read and change everything there before you press Submit. You need a free GitHub account.	Możesz tam wszystko przeczytać i zmienić przed kliknięciem Submit. Potrzebujesz darmowego konta GitHub.
+About	Informacje
+Installing failed: {0}	Instalacja nie powiodła się: {0}
+PC Hand-off is installed. It is in the Start menu, and you can uninstall it in Settings > Apps.	PC Hand-off jest zainstalowany. Jest w menu Start, a odinstalować go można w Ustawienia > Aplikacje.
+Remove PC Hand-off from this PC?	Usunąć PC Hand-off z tego komputera?
+Also delete its settings and log?	Usunąć też jego ustawienia i dziennik?
+PC Hand-off has been removed.	PC Hand-off został usunięty.
+Couldn't check for updates:	Nie udało się sprawdzić aktualizacji:
+You have the latest version ({0}).	Masz najnowszą wersję ({0}).
+PC Hand-off {0} is available (you have {1}).	Dostępny jest PC Hand-off {0} (masz {1}).
+It was installed with winget, so winget updates it. Update now? (A window opens; start PC Hand-off again afterwards.)	Zainstalowano go przez winget, więc winget go aktualizuje. Zaktualizować teraz? (Otworzy się okno; potem uruchom PC Hand-off ponownie.)
+Open the download page?	Otworzyć stronę pobierania?
+Update now? The app restarts by itself.	Zaktualizować teraz? Aplikacja sama się uruchomi ponownie.
+Downloading the update	Pobieranie aktualizacji
+Update failed: {0}	Aktualizacja nie powiodła się: {0}
+Couldn't replace the app file ({0}). Download it yourself from:	Nie udało się zastąpić pliku aplikacji ({0}). Pobierz go samodzielnie z:
+Check	Sprawdź
+Sign out	Wyloguj
+For the buyer	Dla kupującego
+Wipe	Wyczyść
+1. Check	1. Sprawdź
+2. Sign out	2. Wyloguj
+3. For the buyer	3. Dla kupującego
+4. Wipe	4. Wyczyść
+PC Hand-off gets your old PC ready to sell, give away or recycle: nothing of yours left behind, no accounts still signed in, and a clean drive.	PC Hand-off przygotowuje stary komputer do sprzedaży, oddania lub recyklingu: nic twojego nie zostaje, żadne konto nie jest już zalogowane, a dysk jest czysty.
+Looking at this PC...	Sprawdzanie tego komputera...
+Licences and devices tied to this PC.	Licencje i urządzenia powiązane z tym komputerem.
+The specs, ready for your ad or the new owner.	Specyfikacja, gotowa do ogłoszenia lub dla nowego właściciela.
+Windows' own reset, explained step by step.	Wbudowany reset Windows, wyjaśniony krok po kroku.
+{0} thing(s) to look at before you wipe.	Rzeczy do sprawdzenia przed wyczyszczeniem: {0}.
+Nothing left behind - all done.	Nic nie zostaje - gotowe.
+All signed out - all done.	Wszędzie wylogowano - gotowe.
+PC Hand-off only looks and opens the right places: nothing on this PC changes until you start the reset yourself. Nothing is sent anywhere.	PC Hand-off tylko sprawdza i otwiera właściwe miejsca: na tym komputerze nic się nie zmienia, dopóki sam nie uruchomisz resetu. Nic nie jest nigdzie wysyłane.
+Moving to a new PC? Take your programs, files and settings along with PC Move first.	Przenosisz się na nowy komputer? Najpierw zabierz programy, pliki i ustawienia za pomocą PC Move.
+Get PC Move	Pobierz PC Move
+What the reset would wipe that may not be anywhere else yet. Click a row and Open to take care of it, then tick it. Green rows are fine.	Co reset by usunął, a czego może jeszcze nie ma nigdzie indziej. Kliknij wiersz i Otwórz, aby się tym zająć, a potem go zaznacz. Zielone wiersze są w porządku.
+Open	Otwórz
+Details	Szczegóły
+How	Jak
+PC Move folder	Folder PC Move
+made {0}	utworzony {0}
+in OneDrive	w OneDrive
+Comes back when you sign in to OneDrive on another PC.	Wróci, gdy zalogujesz się do OneDrive na innym komputerze.
+packed up with PC Move	spakowane przez PC Move
+{0} file(s), {1} - nothing changed since.	Pliki: {0}, {1} - od tego czasu nic się nie zmieniło.
+{0} file(s) changed since PC Move	Pliki zmienione od PC Move: {0}
+Pack up again with PC Move, or copy these files yourself.	Spakuj ponownie przez PC Move albo skopiuj te pliki samodzielnie.
+only on this PC	tylko na tym komputerze
+{0} file(s), {1}. Take them along with PC Move, or copy them to a USB drive.	Pliki: {0}, {1}. Zabierz je przez PC Move albo skopiuj na pendrive.
+Outlook mail file	Plik poczty Outlook
+{0}, {1}. Close Outlook, then copy it to a USB drive.	{0}, {1}. Zamknij Outlooka, a potem skopiuj plik na pendrive.
+Thunderbird mail	Poczta Thunderbird
+kept on this PC	przechowywana na tym komputerze
+{0}. Mail in an IMAP account is also on the server; other mail is only here. Copy the profile folder to keep it.	{0}. Poczta z konta IMAP jest też na serwerze, pozostała tylko tutaj. Skopiuj folder profilu, aby ją zachować.
+Folder {0}	Folder {0}
+outside your personal folders	poza folderami osobistymi
+{0} file(s), {1}. PC Move does not take this folder - copy it yourself if you need it.	Pliki: {0}, {1}. PC Move nie zabiera tego folderu - skopiuj go sam, jeśli jest potrzebny.
+Drive {0}	Dysk {0}
+Drive {0} ({1})	Dysk {0} ({1})
+{0} in use	Zajęte: {0}
+A second drive in this PC. The reset only clears it if you turn on "Delete files from all drives".	Drugi dysk w tym komputerze. Reset wyczyści go tylko, jeśli włączysz "Usunąć pliki ze wszystkich dysków".
+Other accounts on this PC	Inne konta na tym komputerze
+Their files are wiped too. Ask them to save what they need.	Ich pliki też zostaną usunięte. Poproś ich, by zachowali, co potrzebne.
+signed in	zalogowano
+not signed in	nie zalogowano
+As {0}: bookmarks and passwords come back when you sign in on another PC.	Jako {0}: zakładki i hasła wrócą, gdy zalogujesz się na innym komputerze.
+Its bookmarks and saved passwords are only on this PC. Sign in to the browser, or export the passwords (PC Move takes the bookmarks).	Zakładki i zapisane hasła są tylko na tym komputerze. Zaloguj się w przeglądarce albo wyeksportuj hasła (PC Move zabiera zakładki).
+Drive encryption (BitLocker)	Szyfrowanie dysku (BitLocker)
+on	włączone
+off	wyłączone
+Have your recovery key at hand: the reset may ask for it. It is in your Microsoft account.	Miej pod ręką klucz odzyskiwania: reset może o niego poprosić. Znajdziesz go na swoim koncie Microsoft.
+No recovery key needed. Turn on "Clean data" in the reset, so deleted files cannot be recovered.	Klucz odzyskiwania nie jest potrzebny. Włącz w resecie "Wyczyść dane", aby usuniętych plików nie dało się odzyskać.
+Windows licence	Licencja Windows
+built into this PC	wbudowana w ten komputer
+Windows activates by itself after the reset - the next owner keeps it.	Windows aktywuje się sam po resecie - następny właściciel ją zachowa.
+activated	aktywowany
+Licence type: {0}. Windows usually activates again by itself after the reset; check it before you hand the PC over.	Typ licencji: {0}. Windows zwykle aktywuje się sam po resecie; sprawdź to przed przekazaniem komputera.
+not activated	nieaktywowany
+Tell the buyer: Windows on this PC is not activated.	Powiedz kupującemu: Windows na tym komputerze nie jest aktywowany.
+Stopped before the end - click Look again to finish.	Zatrzymano przed końcem - kliknij Sprawdź ponownie, aby dokończyć.
+No PC Move folder from this PC was found. Plug in the drive you packed up to, then click Look again - or move your files with PC Move first.	Nie znaleziono folderu PC Move z tego komputera. Podłącz dysk, na który pakowałeś, i kliknij Sprawdź ponownie - albo najpierw przenieś pliki przez PC Move.
+{0} thing(s) to look at. Tick a row when it is taken care of.	Rzeczy do sprawdzenia: {0}. Zaznacz wiersz, gdy sprawa jest załatwiona.
+Nothing left behind. Next: Sign out.	Nic nie zostaje. Dalej: Wyloguj.
+Click a row in the list first.	Najpierw kliknij wiersz na liście.
+{0} is not installed in the usual place. Open it yourself.	{0} nie jest zainstalowana w zwykłym miejscu. Otwórz ją samodzielnie.
+Some programs count this PC against a limit, or stay linked to your accounts after a reset. Free them now. Click a step and Open, then tick it.	Niektóre programy liczą ten komputer do limitu albo po resecie pozostają powiązane z twoimi kontami. Zwolnij je teraz. Kliknij krok i Otwórz, a potem go zaznacz.
+All signed out. Next: For the buyer, then Wipe.	Wszędzie wylogowano. Dalej: Dla kupującego, potem Wyczyść.
+Sign out of Microsoft 365 (Office)	Wyloguj się z Microsoft 365 (Office)
+Microsoft 365 is signed in on a limited number of PCs. In Word: File > Account > Sign out, or remove this PC at your Microsoft account.	Microsoft 365 może być zalogowany na ograniczonej liczbie komputerów. W Wordzie: Plik > Konto > Wyloguj albo usuń ten komputer na koncie Microsoft.
+Deauthorise this computer in iTunes	Cofnij autoryzację tego komputera w iTunes
+Apple allows 5 authorised computers. In iTunes: Account > Authorisations > Deauthorise This Computer.	Apple pozwala na 5 autoryzowanych komputerów. W iTunes: Konto > Autoryzacje > Cofnij autoryzację tego komputera.
+Sign out of iCloud	Wyloguj się z iCloud
+Open iCloud and click Sign out, so this PC leaves your Apple devices.	Otwórz iCloud i kliknij Wyloguj, aby ten komputer zniknął z twoich urządzeń Apple.
+Sign out of Adobe	Wyloguj się z Adobe
+Adobe apps run on two computers at a time. In Creative Cloud or Acrobat: Help > Sign out frees this one.	Aplikacje Adobe działają na dwóch komputerach naraz. W Creative Cloud lub Acrobacie: Pomoc > Wyloguj zwalnia ten.
+Remove this PC from Steam	Usuń ten komputer ze Steam
+Steam Guard trusts this PC. Sign out of Steam, or use "Deauthorise all other devices" on the Steam website.	Steam Guard ufa temu komputerowi. Wyloguj się ze Steam albo użyj "Cofnij autoryzację wszystkich innych urządzeń" na stronie Steam.
+Sign out of {0}	Wyloguj się z {0}
+Game launchers remember this PC. Sign out in the launcher.	Launchery gier pamiętają ten komputer. Wyloguj się w launcherze.
+Unlink this PC from Dropbox	Odłącz ten komputer od Dropboxa
+Dropbox Basic allows 3 devices.	Dropbox Basic pozwala na 3 urządzenia.
+Remove this PC from Spotify	Usuń ten komputer ze Spotify
+Downloaded music counts against Spotify's device limit. "Sign out everywhere" on your Spotify account page also works.	Pobrana muzyka liczy się do limitu urządzeń Spotify. Działa też "Wyloguj się wszędzie" na stronie konta Spotify.
+Sign out of Netflix	Wyloguj się z Netflixa
+Downloaded films count against your Netflix download devices.	Pobrane filmy liczą się do urządzeń pobierania Netflixa.
+Deregister Kindle on this PC	Wyrejestruj Kindle na tym komputerze
+At Amazon: Content and devices > Devices > Deregister.	Na Amazonie: Treści i urządzenia > Urządzenia > Wyrejestruj.
+Unlink WhatsApp from this PC	Odłącz WhatsApp od tego komputera
+On your phone: WhatsApp > Settings > Linked devices, then log out this PC.	Na telefonie: WhatsApp > Ustawienia > Połączone urządzenia, a potem wyloguj ten komputer.
+Log out of Telegram	Wyloguj się z Telegrama
+On your phone: Telegram > Settings > Devices, then end this session.	Na telefonie: Telegram > Ustawienia > Urządzenia, a potem zakończ tę sesję.
+Unlink Signal	Odłącz Signal
+On your phone: Signal > Settings > Linked devices.	Na telefonie: Signal > Ustawienia > Połączone urządzenia.
+Free your {0} licence	Zwolnij licencję {0}
+Remove this PC from your account on the maker's website, so the licence can go to your new PC.	Usuń ten komputer ze swojego konta na stronie producenta, aby licencja mogła przejść na nowy komputer.
+Your passwords stay in your account, but this PC should not stay signed in.	Hasła zostają na twoim koncie, ale ten komputer nie powinien pozostać zalogowany.
+Deactivate licences in {0}	Dezaktywuj licencje w {0}
+Music software licences are tied to this PC until you deactivate them.	Licencje oprogramowania muzycznego są powiązane z tym komputerem, dopóki ich nie dezaktywujesz.
+Anything else with a licence or "deactivate" in its menu	Wszystko inne z licencją lub opcją "dezaktywuj" w menu
+For example tax software, photo and music software, or a VPN. Look through the Start menu.	Na przykład programy podatkowe, do zdjęć i muzyki albo VPN. Przejrzyj menu Start.
+Last, after the reset: remove this PC from your Microsoft account	Na koniec, po resecie: usuń ten komputer z konta Microsoft
+At account.microsoft.com/devices: choose this PC, then Remove device. This also takes it out of Find my device.	Na account.microsoft.com/devices: wybierz ten komputer, a potem Usuń urządzenie. Zniknie też z Znajdź moje urządzenie.
+What is in this PC, in plain words - for your ad, or to give to the new owner. You can change the text before you copy or save it.	Co jest w tym komputerze, prostymi słowami - do ogłoszenia albo dla nowego właściciela. Możesz zmienić tekst, zanim go skopiujesz lub zapiszesz.
+Copy	Kopiuj
+Save as...	Zapisz jako...
+Include the serial number	Dołącz numer seryjny
+Looking at the hardware...	Sprawdzanie sprzętu...
+Reading the specs	Odczyt specyfikacji
+Processor	Procesor
+{0} cores, {1} threads	rdzenie: {0}, wątki: {1}
+Memory	Pamięć
+{0} of {1} slots used	zajęte gniazda: {0} z {1}
+hard disk	dysk twardy
+health: {0}	stan: {0}
+healthy	sprawny
+{0}% life left	pozostało {0}% żywotności
+{0} hours in use	godziny pracy: {0}
+Storage	Dysk
+Graphics	Grafika
+Screen	Ekran
+Battery	Bateria
+{0}% of its original capacity	{0}% pierwotnej pojemności
+{0}% of its original capacity, {1} charge cycles	{0}% pierwotnej pojemności, cykle ładowania: {1}
+Licence	Licencja
+built into this PC (activates by itself)	wbudowana w ten komputer (aktywuje się sama)
+can be upgraded for free	można zaktualizować za darmo
+not supported on this PC	nieobsługiwany na tym komputerze
+Serial number	Numer seryjny
+Wiped with Windows' own reset ("Remove everything").	Wyczyszczony wbudowanym resetem Windows ("Usuń wszystko").
+Laptop	Laptop
+Desktop PC	Komputer stacjonarny
+Tablet	Tablet
+All-in-one	Komputer All-in-One
+Ready. Copy it, or save it to a USB drive (the reset wipes this PC's desktop too).	Gotowe. Skopiuj to albo zapisz na pendrive (reset usuwa też pulpit tego komputera).
+Ready. Run as administrator to add how worn the drive is.	Gotowe. Uruchom jako administrator, aby dodać zużycie dysku.
+Copied. Paste it into your ad or an e-mail.	Skopiowano. Wklej to do ogłoszenia lub e-maila.
+Text file	Plik tekstowy
+PC for sale	Komputer na sprzedaż
+Saved: {0}	Zapisano: {0}
+Couldn't save: {0}	Nie udało się zapisać: {0}
+Windows' own reset puts Windows back as new and removes everything of yours. PC Hand-off starts it and tells you what to choose.	Wbudowany reset Windows przywraca system do stanu jak nowy i usuwa wszystko, co twoje. PC Hand-off go uruchamia i mówi, co wybrać.
+How the reset goes	Jak przebiega reset
+1.  Plug in the charger. The PC must stay on until the end.	1.  Podłącz ładowarkę. Komputer musi być włączony do samego końca.
+2.  Click "Start the reset" and allow it. Windows asks what to keep: choose "Remove everything".	2.  Kliknij "Uruchom reset" i zezwól. Windows zapyta, co zachować: wybierz "Usuń wszystko".
+3.  Choose "Cloud download" or "Local reinstall" - both work. Cloud download needs internet, and also repairs a damaged Windows.	3.  Wybierz "Pobieranie z chmury" lub "Lokalna ponowna instalacja" - obie działają. Pobieranie z chmury wymaga internetu i naprawia też uszkodzony Windows.
+4.  At "Additional settings", click "Change settings" and turn on "Clean data": it overwrites the drive so deleted files cannot be recovered. If the PC has a second drive, also turn on "Delete files from all drives".	4.  W "Ustawieniach dodatkowych" kliknij "Zmień ustawienia" i włącz "Wyczyść dane": dysk zostanie nadpisany, więc usuniętych plików nie da się odzyskać. Jeśli komputer ma drugi dysk, włącz też "Usunąć pliki ze wszystkich dysków".
+5.  Click "Reset". It takes one to several hours, and the PC restarts a few times.	5.  Kliknij "Resetuj". Trwa to od jednej do kilku godzin, a komputer kilka razy się uruchomi ponownie.
+6.  When the PC shows the first set-up screen (choose your country or region), switch it off. The new owner sets it up from there.	6.  Gdy komputer pokaże pierwszy ekran konfiguracji (wybór kraju lub regionu), wyłącz go. Nowy właściciel skonfiguruje go od tego miejsca.
+Start the reset...	Uruchom reset...
+Open Recovery in Settings	Otwórz Odzyskiwanie w Ustawieniach
+Staying in the family? Then you don't have to reset: add an account for the new user, and remove your own account once they are set up.	Zostaje w rodzinie? Wtedy reset nie jest potrzebny: dodaj konto dla nowego użytkownika i usuń własne, gdy wszystko będzie gotowe.
+Add an account for someone	Dodaj konto dla kogoś
+PC Hand-off is still looking at this PC - see Check.	PC Hand-off wciąż sprawdza ten komputer - zobacz Sprawdź.
+Still open: {0} thing(s) on the Check page and {1} step(s) on the Sign out page. After the reset they can't be done any more.	Wciąż otwarte: {0} na stronie Sprawdź i {1} na stronie Wyloguj. Po resecie nie będzie to już możliwe.
+Everything is checked and signed out. Ready for the reset.	Wszystko sprawdzone i wylogowane. Gotowe do resetu.
+There are still {0} thing(s) to check and {1} step(s) to sign out. Everything of yours on this PC will be gone after the reset.	Do sprawdzenia zostało: {0}, do wylogowania: {1}. Po resecie wszystko twoje zniknie z tego komputera.
+Start the reset anyway?	Mimo to uruchomić reset?
+Start Windows' reset now?	Uruchomić teraz reset Windows?
+Remember: "Remove everything", and turn on "Clean data" at Additional settings.	Pamiętaj: "Usuń wszystko" i włącz "Wyczyść dane" w Ustawieniach dodatkowych.
+As administrator, PC Hand-off can also read how worn the drive is, for the buyer.	Jako administrator PC Hand-off może też odczytać zużycie dysku, dla kupującego.
+PC Hand-off {0} - free and open source (MIT licence). Privacy: PC Hand-off only reads from this PC and sends nothing anywhere. The only internet use is the update check (GitHub).	PC Hand-off {0} - darmowy i otwartoźródłowy (licencja MIT). Prywatność: PC Hand-off tylko czyta z tego komputera i nic nie wysyła. Jedyne użycie internetu to sprawdzanie aktualizacji (GitHub).
+looking at {0}	sprawdzanie: {0}
+looking for e-mail	szukanie poczty
+looking at the Windows drive	sprawdzanie dysku Windows
+looking at the Windows licence	sprawdzanie licencji Windows
+Windows	Windows

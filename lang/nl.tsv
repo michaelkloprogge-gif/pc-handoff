@@ -1,0 +1,236 @@
+Start	Start
+Settings	Instellingen
+Version {0}	Versie {0}
+Cancel	Annuleren
+Stopping...	Stoppen...
+Run as administrator	Als beheerder starten
+Something went wrong:	Er ging iets mis:
+Report this problem? (Opens GitHub with the details filled in - you see everything before you send it.)	Dit probleem melden? (Opent GitHub met de gegevens al ingevuld - je ziet alles voordat je het verstuurt.)
+Look again	Opnieuw kijken
+What	Wat
+Status	Status
+Desktop	Bureaublad
+Documents	Documenten
+Pictures	Afbeeldingen
+Music	Muziek
+Videos	Video's
+Downloads	Downloads
+Looking at this PC	Deze pc bekijken
+Step	Stap
+{0} step(s) left.	Nog {0} stap(pen).
+Click a step in the list first.	Klik eerst op een stap in de lijst.
+How PC Hand-off looks and behaves. Changes are saved straight away.	Hoe PC Hand-off eruitziet en werkt. Wijzigingen worden meteen bewaard.
+Language	Taal
+Takes effect when PC Hand-off restarts.	Werkt nadat PC Hand-off opnieuw is gestart.
+Automatic (Windows language)	Automatisch (taal van Windows)
+Restart now	Nu opnieuw starten
+Theme	Thema
+Light, dark, or the same as Windows. Takes effect when PC Hand-off restarts.	Licht, donker of hetzelfde als Windows. Werkt nadat PC Hand-off opnieuw is gestart.
+Same as Windows	Hetzelfde als Windows
+Light	Licht
+Dark	Donker
+Updates	Updates
+You have version {0}. New versions come from github.com/{1} and are checked against GitHub's checksum before they are installed.	Je hebt versie {0}. Nieuwe versies komen van github.com/{1} en worden met de controlesom van GitHub gecontroleerd voordat ze worden geïnstalleerd.
+Check for updates when PC Hand-off starts	Op updates controleren als PC Hand-off start
+Check for updates now	Nu op updates controleren
+Downloading...	Downloaden...
+Install	Installeren
+PC Hand-off runs straight from the file - installing is not needed. Install it if you want it in the Start menu and in Settings > Apps.	PC Hand-off werkt direct vanuit het bestand - installeren is niet nodig. Installeer het als je het in het Startmenu en in Instellingen > Apps wilt hebben.
+Install on this PC	Op deze pc installeren
+Uninstall	Verwijderen
+Files	Bestanden
+PC Hand-off keeps a log of what it did and its settings in {0}.	PC Hand-off houdt een logboek bij van wat het deed, en bewaart zijn instellingen, in {0}.
+Open the log	Logboek openen
+Open the folder	Map openen
+Nothing has been logged yet.	Er is nog niets vastgelegd.
+Help and feedback	Hulp en feedback
+Something not working, or an idea? It opens a report on GitHub with the version, Windows and recent errors already filled in (your name, folders and PC name are blanked out) - you see everything before you send it.	Werkt iets niet, of heb je een idee? Dit opent een melding op GitHub met de versie, Windows en recente fouten al ingevuld (je naam, mappen en pc-naam zijn weggelaten) - je ziet alles voordat je het verstuurt.
+Report a problem...	Probleem melden...
+Suggest an idea...	Idee voorstellen...
+This opens GitHub with a new problem report, filled in with:	Dit opent GitHub met een nieuwe probleemmelding, ingevuld met:
+You can read and change everything there before you press Submit. You need a free GitHub account.	Je kunt daar alles lezen en aanpassen voordat je op Submit klikt. Je hebt een gratis GitHub-account nodig.
+About	Over
+Installing failed: {0}	Installeren mislukt: {0}
+PC Hand-off is installed. It is in the Start menu, and you can uninstall it in Settings > Apps.	PC Hand-off is geïnstalleerd. Het staat in het Startmenu en je kunt het verwijderen via Instellingen > Apps.
+Remove PC Hand-off from this PC?	PC Hand-off van deze pc verwijderen?
+Also delete its settings and log?	Ook de instellingen en het logboek verwijderen?
+PC Hand-off has been removed.	PC Hand-off is verwijderd.
+Couldn't check for updates:	Kon niet op updates controleren:
+You have the latest version ({0}).	Je hebt de nieuwste versie ({0}).
+PC Hand-off {0} is available (you have {1}).	PC Hand-off {0} is beschikbaar (je hebt {1}).
+It was installed with winget, so winget updates it. Update now? (A window opens; start PC Hand-off again afterwards.)	Het is met winget geïnstalleerd, dus winget werkt het bij. Nu bijwerken? (Er opent een venster; start PC Hand-off daarna opnieuw.)
+Open the download page?	De downloadpagina openen?
+Update now? The app restarts by itself.	Nu bijwerken? De app start vanzelf opnieuw.
+Downloading the update	De update downloaden
+Update failed: {0}	Bijwerken mislukt: {0}
+Couldn't replace the app file ({0}). Download it yourself from:	Kon het app-bestand niet vervangen ({0}). Download het zelf van:
+Check	Controleren
+Sign out	Afmelden
+For the buyer	Voor de koper
+Wipe	Wissen
+1. Check	1. Controleren
+2. Sign out	2. Afmelden
+3. For the buyer	3. Voor de koper
+4. Wipe	4. Wissen
+PC Hand-off gets your old PC ready to sell, give away or recycle: nothing of yours left behind, no accounts still signed in, and a clean drive.	PC Hand-off maakt je oude pc klaar om te verkopen, weg te geven of te recyclen: niets van jou achtergelaten, geen accounts meer aangemeld en een schone schijf.
+Looking at this PC...	Deze pc bekijken...
+Licences and devices tied to this PC.	Licenties en apparaten die aan deze pc vastzitten.
+The specs, ready for your ad or the new owner.	De specificaties, klaar voor je advertentie of de nieuwe eigenaar.
+Windows' own reset, explained step by step.	De eigen reset van Windows, stap voor stap uitgelegd.
+{0} thing(s) to look at before you wipe.	{0} ding(en) om te bekijken voor je wist.
+Nothing left behind - all done.	Niets achtergelaten - klaar.
+All signed out - all done.	Overal afgemeld - klaar.
+PC Hand-off only looks and opens the right places: nothing on this PC changes until you start the reset yourself. Nothing is sent anywhere.	PC Hand-off kijkt alleen en opent de juiste plekken: er verandert niets op deze pc tot je zelf de reset start. Er wordt niets verstuurd.
+Moving to a new PC? Take your programs, files and settings along with PC Move first.	Ga je over naar een nieuwe pc? Neem eerst je programma's, bestanden en instellingen mee met PC Move.
+Get PC Move	PC Move downloaden
+What the reset would wipe that may not be anywhere else yet. Click a row and Open to take care of it, then tick it. Green rows are fine.	Wat de reset zou wissen en misschien nog nergens anders staat. Klik op een regel en op Openen om het te regelen, en vink het dan aan. Groene regels zijn in orde.
+Open	Openen
+Details	Details
+How	Hoe
+PC Move folder	PC Move-map
+made {0}	gemaakt op {0}
+in OneDrive	in OneDrive
+Comes back when you sign in to OneDrive on another PC.	Komt terug als je op een andere pc bij OneDrive aanmeldt.
+packed up with PC Move	ingepakt met PC Move
+{0} file(s), {1} - nothing changed since.	{0} bestand(en), {1} - sindsdien niets veranderd.
+{0} file(s) changed since PC Move	{0} bestand(en) veranderd sinds PC Move
+Pack up again with PC Move, or copy these files yourself.	Pak opnieuw in met PC Move, of kopieer deze bestanden zelf.
+only on this PC	alleen op deze pc
+{0} file(s), {1}. Take them along with PC Move, or copy them to a USB drive.	{0} bestand(en), {1}. Neem ze mee met PC Move, of kopieer ze naar een usb-stick.
+Outlook mail file	Outlook-mailbestand
+{0}, {1}. Close Outlook, then copy it to a USB drive.	{0}, {1}. Sluit Outlook en kopieer het dan naar een usb-stick.
+Thunderbird mail	Thunderbird-mail
+kept on this PC	bewaard op deze pc
+{0}. Mail in an IMAP account is also on the server; other mail is only here. Copy the profile folder to keep it.	{0}. Mail in een IMAP-account staat ook op de server; andere mail alleen hier. Kopieer de profielmap om hem te bewaren.
+Folder {0}	Map {0}
+outside your personal folders	buiten je persoonlijke mappen
+{0} file(s), {1}. PC Move does not take this folder - copy it yourself if you need it.	{0} bestand(en), {1}. PC Move neemt deze map niet mee - kopieer hem zelf als je hem nodig hebt.
+Drive {0}	Station {0}
+Drive {0} ({1})	Station {0} ({1})
+{0} in use	{0} in gebruik
+A second drive in this PC. The reset only clears it if you turn on "Delete files from all drives".	Een tweede schijf in deze pc. De reset wist hem alleen als je "Bestanden van alle stations verwijderen" aanzet.
+Other accounts on this PC	Andere accounts op deze pc
+Their files are wiped too. Ask them to save what they need.	Hun bestanden worden ook gewist. Vraag ze te bewaren wat ze nodig hebben.
+signed in	aangemeld
+not signed in	niet aangemeld
+As {0}: bookmarks and passwords come back when you sign in on another PC.	Als {0}: bladwijzers en wachtwoorden komen terug als je op een andere pc aanmeldt.
+Its bookmarks and saved passwords are only on this PC. Sign in to the browser, or export the passwords (PC Move takes the bookmarks).	De bladwijzers en opgeslagen wachtwoorden staan alleen op deze pc. Meld je aan in de browser, of exporteer de wachtwoorden (PC Move neemt de bladwijzers mee).
+Drive encryption (BitLocker)	Schijfversleuteling (BitLocker)
+on	aan
+off	uit
+Have your recovery key at hand: the reset may ask for it. It is in your Microsoft account.	Houd je herstelsleutel bij de hand: de reset kan erom vragen. Hij staat in je Microsoft-account.
+No recovery key needed. Turn on "Clean data" in the reset, so deleted files cannot be recovered.	Geen herstelsleutel nodig. Zet in de reset "Gegevens opschonen" aan, zodat verwijderde bestanden niet terug te halen zijn.
+Windows licence	Windows-licentie
+built into this PC	ingebouwd in deze pc
+Windows activates by itself after the reset - the next owner keeps it.	Windows activeert zichzelf na de reset - de volgende eigenaar houdt hem.
+activated	geactiveerd
+Licence type: {0}. Windows usually activates again by itself after the reset; check it before you hand the PC over.	Licentietype: {0}. Windows activeert zich na de reset meestal vanzelf; controleer het voor je de pc overdraagt.
+not activated	niet geactiveerd
+Tell the buyer: Windows on this PC is not activated.	Vertel het de koper: Windows op deze pc is niet geactiveerd.
+Stopped before the end - click Look again to finish.	Gestopt voor het einde - klik op Opnieuw kijken om af te maken.
+No PC Move folder from this PC was found. Plug in the drive you packed up to, then click Look again - or move your files with PC Move first.	Er is geen PC Move-map van deze pc gevonden. Sluit de schijf aan waarop je hebt ingepakt en klik op Opnieuw kijken - of verhuis je bestanden eerst met PC Move.
+{0} thing(s) to look at. Tick a row when it is taken care of.	{0} ding(en) om te bekijken. Vink een regel aan als het geregeld is.
+Nothing left behind. Next: Sign out.	Niets achtergelaten. Volgende stap: Afmelden.
+Click a row in the list first.	Klik eerst op een regel in de lijst.
+{0} is not installed in the usual place. Open it yourself.	{0} is niet op de gebruikelijke plek geïnstalleerd. Open het zelf.
+Some programs count this PC against a limit, or stay linked to your accounts after a reset. Free them now. Click a step and Open, then tick it.	Sommige programma's tellen deze pc mee voor een limiet, of blijven na een reset aan je accounts gekoppeld. Maak ze nu vrij. Klik op een stap en op Openen, en vink hem dan aan.
+All signed out. Next: For the buyer, then Wipe.	Overal afgemeld. Volgende: Voor de koper, dan Wissen.
+Sign out of Microsoft 365 (Office)	Afmelden bij Microsoft 365 (Office)
+Microsoft 365 is signed in on a limited number of PCs. In Word: File > Account > Sign out, or remove this PC at your Microsoft account.	Microsoft 365 mag op een beperkt aantal pc's aangemeld zijn. In Word: Bestand > Account > Afmelden, of verwijder deze pc bij je Microsoft-account.
+Deauthorise this computer in iTunes	Deze computer de-autoriseren in iTunes
+Apple allows 5 authorised computers. In iTunes: Account > Authorisations > Deauthorise This Computer.	Apple staat 5 geautoriseerde computers toe. In iTunes: Account > Autorisaties > Deze computer de-autoriseren.
+Sign out of iCloud	Afmelden bij iCloud
+Open iCloud and click Sign out, so this PC leaves your Apple devices.	Open iCloud en klik op Afmelden, zodat deze pc uit je Apple-apparaten verdwijnt.
+Sign out of Adobe	Afmelden bij Adobe
+Adobe apps run on two computers at a time. In Creative Cloud or Acrobat: Help > Sign out frees this one.	Adobe-apps werken op twee computers tegelijk. In Creative Cloud of Acrobat: Help > Afmelden maakt deze vrij.
+Remove this PC from Steam	Deze pc verwijderen uit Steam
+Steam Guard trusts this PC. Sign out of Steam, or use "Deauthorise all other devices" on the Steam website.	Steam Guard vertrouwt deze pc. Meld je af bij Steam, of gebruik "Alle andere apparaten de-autoriseren" op de Steam-website.
+Sign out of {0}	Afmelden bij {0}
+Game launchers remember this PC. Sign out in the launcher.	Gamelaunchers onthouden deze pc. Meld je af in de launcher.
+Unlink this PC from Dropbox	Deze pc ontkoppelen van Dropbox
+Dropbox Basic allows 3 devices.	Dropbox Basic staat 3 apparaten toe.
+Remove this PC from Spotify	Deze pc verwijderen uit Spotify
+Downloaded music counts against Spotify's device limit. "Sign out everywhere" on your Spotify account page also works.	Gedownloade muziek telt mee voor de apparatenlimiet van Spotify. "Overal afmelden" op je Spotify-accountpagina werkt ook.
+Sign out of Netflix	Afmelden bij Netflix
+Downloaded films count against your Netflix download devices.	Gedownloade films tellen mee voor je Netflix-downloadapparaten.
+Deregister Kindle on this PC	Kindle op deze pc afmelden
+At Amazon: Content and devices > Devices > Deregister.	Bij Amazon: Content en apparaten > Apparaten > Registratie ongedaan maken.
+Unlink WhatsApp from this PC	WhatsApp ontkoppelen van deze pc
+On your phone: WhatsApp > Settings > Linked devices, then log out this PC.	Op je telefoon: WhatsApp > Instellingen > Gekoppelde apparaten, en meld deze pc af.
+Log out of Telegram	Afmelden bij Telegram
+On your phone: Telegram > Settings > Devices, then end this session.	Op je telefoon: Telegram > Instellingen > Apparaten, en beëindig deze sessie.
+Unlink Signal	Signal ontkoppelen
+On your phone: Signal > Settings > Linked devices.	Op je telefoon: Signal > Instellingen > Gekoppelde apparaten.
+Free your {0} licence	Je {0}-licentie vrijmaken
+Remove this PC from your account on the maker's website, so the licence can go to your new PC.	Verwijder deze pc uit je account op de website van de maker, zodat de licentie naar je nieuwe pc kan.
+Your passwords stay in your account, but this PC should not stay signed in.	Je wachtwoorden blijven in je account, maar deze pc moet niet aangemeld blijven.
+Deactivate licences in {0}	Licenties deactiveren in {0}
+Music software licences are tied to this PC until you deactivate them.	Licenties van muzieksoftware zitten aan deze pc vast tot je ze deactiveert.
+Anything else with a licence or "deactivate" in its menu	Al het andere met een licentie of "deactiveren" in het menu
+For example tax software, photo and music software, or a VPN. Look through the Start menu.	Bijvoorbeeld belastingsoftware, foto- en muzieksoftware, of een vpn. Kijk het Startmenu door.
+Last, after the reset: remove this PC from your Microsoft account	Als laatste, na de reset: deze pc uit je Microsoft-account verwijderen
+At account.microsoft.com/devices: choose this PC, then Remove device. This also takes it out of Find my device.	Op account.microsoft.com/devices: kies deze pc en dan Apparaat verwijderen. Dan verdwijnt hij ook uit Mijn apparaat zoeken.
+What is in this PC, in plain words - for your ad, or to give to the new owner. You can change the text before you copy or save it.	Wat er in deze pc zit, in gewone woorden - voor je advertentie, of om aan de nieuwe eigenaar te geven. Je kunt de tekst aanpassen voor je hem kopieert of opslaat.
+Copy	Kopiëren
+Save as...	Opslaan als...
+Include the serial number	Met serienummer
+Looking at the hardware...	Hardware bekijken...
+Reading the specs	Specificaties lezen
+Processor	Processor
+{0} cores, {1} threads	{0} kernen, {1} threads
+Memory	Geheugen
+{0} of {1} slots used	{0} van {1} sleuven gebruikt
+hard disk	harde schijf
+health: {0}	conditie: {0}
+healthy	in orde
+{0}% life left	nog {0}% levensduur
+{0} hours in use	{0} uur in gebruik
+Storage	Opslag
+Graphics	Grafische kaart
+Screen	Scherm
+Battery	Accu
+{0}% of its original capacity	{0}% van de oorspronkelijke capaciteit
+{0}% of its original capacity, {1} charge cycles	{0}% van de oorspronkelijke capaciteit, {1} laadcycli
+Licence	Licentie
+built into this PC (activates by itself)	ingebouwd in deze pc (activeert vanzelf)
+can be upgraded for free	gratis te upgraden
+not supported on this PC	niet ondersteund op deze pc
+Serial number	Serienummer
+Wiped with Windows' own reset ("Remove everything").	Gewist met de eigen reset van Windows ("Alles verwijderen").
+Laptop	Laptop
+Desktop PC	Desktop-pc
+Tablet	Tablet
+All-in-one	Alles-in-één
+Ready. Copy it, or save it to a USB drive (the reset wipes this PC's desktop too).	Klaar. Kopieer het, of sla het op een usb-stick op (de reset wist ook het bureaublad van deze pc).
+Ready. Run as administrator to add how worn the drive is.	Klaar. Start als administrator om toe te voegen hoe versleten de schijf is.
+Copied. Paste it into your ad or an e-mail.	Gekopieerd. Plak het in je advertentie of een e-mail.
+Text file	Tekstbestand
+PC for sale	Pc te koop
+Saved: {0}	Opgeslagen: {0}
+Couldn't save: {0}	Opslaan lukte niet: {0}
+Windows' own reset puts Windows back as new and removes everything of yours. PC Hand-off starts it and tells you what to choose.	De eigen reset van Windows zet Windows terug als nieuw en verwijdert alles van jou. PC Hand-off start hem en vertelt wat je moet kiezen.
+How the reset goes	Zo gaat de reset
+1.  Plug in the charger. The PC must stay on until the end.	1.  Sluit de oplader aan. De pc moet tot het einde aan blijven.
+2.  Click "Start the reset" and allow it. Windows asks what to keep: choose "Remove everything".	2.  Klik op "De reset starten" en sta het toe. Windows vraagt wat je wilt behouden: kies "Alles verwijderen".
+3.  Choose "Cloud download" or "Local reinstall" - both work. Cloud download needs internet, and also repairs a damaged Windows.	3.  Kies "Downloaden via cloud" of "Lokaal opnieuw installeren" - allebei goed. Downloaden via cloud heeft internet nodig en herstelt ook een beschadigde Windows.
+4.  At "Additional settings", click "Change settings" and turn on "Clean data": it overwrites the drive so deleted files cannot be recovered. If the PC has a second drive, also turn on "Delete files from all drives".	4.  Klik bij "Aanvullende instellingen" op "Instellingen wijzigen" en zet "Gegevens opschonen" aan: dat overschrijft de schijf, zodat verwijderde bestanden niet terug te halen zijn. Heeft de pc een tweede schijf, zet dan ook "Bestanden van alle stations verwijderen" aan.
+5.  Click "Reset". It takes one to several hours, and the PC restarts a few times.	5.  Klik op "Opnieuw instellen". Het duurt een tot een paar uur, en de pc start een paar keer opnieuw op.
+6.  When the PC shows the first set-up screen (choose your country or region), switch it off. The new owner sets it up from there.	6.  Als de pc het eerste installatiescherm toont (kies je land of regio), zet hem dan uit. De nieuwe eigenaar gaat vanaf daar verder.
+Start the reset...	De reset starten...
+Open Recovery in Settings	Systeemherstel openen in Instellingen
+Staying in the family? Then you don't have to reset: add an account for the new user, and remove your own account once they are set up.	Blijft hij in de familie? Dan hoef je niet te resetten: voeg een account toe voor de nieuwe gebruiker, en verwijder je eigen account als die klaar is.
+Add an account for someone	Een account toevoegen voor iemand
+PC Hand-off is still looking at this PC - see Check.	PC Hand-off bekijkt deze pc nog - zie Controleren.
+Still open: {0} thing(s) on the Check page and {1} step(s) on the Sign out page. After the reset they can't be done any more.	Nog open: {0} ding(en) op de pagina Controleren en {1} stap(pen) op de pagina Afmelden. Na de reset kan dat niet meer.
+Everything is checked and signed out. Ready for the reset.	Alles is gecontroleerd en afgemeld. Klaar voor de reset.
+There are still {0} thing(s) to check and {1} step(s) to sign out. Everything of yours on this PC will be gone after the reset.	Er zijn nog {0} ding(en) om te controleren en {1} stap(pen) om af te melden. Alles van jou op deze pc is na de reset weg.
+Start the reset anyway?	Toch de reset starten?
+Start Windows' reset now?	De reset van Windows nu starten?
+Remember: "Remove everything", and turn on "Clean data" at Additional settings.	Onthoud: "Alles verwijderen", en zet bij Aanvullende instellingen "Gegevens opschonen" aan.
+As administrator, PC Hand-off can also read how worn the drive is, for the buyer.	Als administrator kan PC Hand-off ook lezen hoe versleten de schijf is, voor de koper.
+PC Hand-off {0} - free and open source (MIT licence). Privacy: PC Hand-off only reads from this PC and sends nothing anywhere. The only internet use is the update check (GitHub).	PC Hand-off {0} - gratis en open source (MIT-licentie). Privacy: PC Hand-off leest alleen van deze pc en verstuurt niets. Het enige internetgebruik is de controle op updates (GitHub).
+looking at {0}	{0} bekijken
+looking for e-mail	e-mail zoeken
+looking at the Windows drive	de Windows-schijf bekijken
+looking at the Windows licence	de Windows-licentie bekijken
+Windows	Windows
