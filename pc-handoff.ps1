@@ -38,7 +38,7 @@ foreach ($a in $CliArgs) {
     }
 }
 
-$AppVersion = '1.0.0'                  # bump for every release; publish-release.ps1 tags it as v<version>
+$AppVersion = '1.0.1'                  # bump for every release; publish-release.ps1 tags it as v<version>
 $UpdateRepo = 'michaelkloprogge-gif/pc-handoff'         # GitHub repo whose latest release the app updates from
 
 $SelfExe = [Diagnostics.Process]::GetCurrentProcess().MainModule.FileName
