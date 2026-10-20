@@ -148,6 +148,9 @@ $InstallDir = Join-Path $env:LOCALAPPDATA 'Programs\PC Hand-off'
 $InstalledExe = Join-Path $InstallDir 'PC-Handoff.exe'
 $IsInstalled = $RunningAsExe -and ($SelfExe -eq $InstalledExe)
 $FromWinget = $RunningAsExe -and $SelfExe -match '\\Microsoft\\WinGet\\(Packages|Links)\\'
+# From the Microsoft Store (an MSIX package): the Store installs and updates it, and starts it through its alias.
+$FromStore = $RunningAsExe -and (Test-Path -LiteralPath (Join-Path (Split-Path $SelfExe) 'AppxManifest.xml'))
+$StartExe = if ($FromStore) { Join-Path $env:LOCALAPPDATA 'Microsoft\WindowsApps\pc-handoff.exe' } else { $SelfExe }
 
 function Write-Log([string]$Msg) {
     Add-Content -Path $LogFile -Value ('{0:yyyy-MM-dd HH:mm:ss}  {1}' -f (Get-Date), $Msg) -Encoding UTF8
@@ -1109,7 +1112,7 @@ function New-Choice([string[]]$Labels, [string[]]$Values, [string]$Current) {
     $c
 }
 function Restart-App {
-    if ($RunningAsExe) { Start-Process $SelfExe } else { Start-Process powershell.exe -ArgumentList "-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File `"$PSCommandPath`"" }
+    if ($RunningAsExe) { Start-Process $StartExe } else { Start-Process powershell.exe -ArgumentList "-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File `"$PSCommandPath`"" }
     $form.Close()
 }
 
@@ -1128,16 +1131,16 @@ $cmbTheme.Add_SelectedIndexChanged({ $Settings.Theme = $this.Tag[$this.SelectedI
 $btnThemeRestart.Add_Click({ Restart-App })
 
 
-Add-SetSection 'Updates' "You have version $AppVersion. New versions come from github.com/$UpdateRepo and are checked against GitHub's checksum before they are installed."
+Add-SetSection 'Updates' $(if ($FromStore) { 'PC Hand-off came from the Microsoft Store, which keeps it up to date.' } else { "You have version $AppVersion. New versions come from github.com/$UpdateRepo and are checked against GitHub's checksum before they are installed." })
 $chkUpd = New-Check 'Check for updates when PC Hand-off starts' ([bool]$Settings.CheckUpdates)
 $chkUpd.Add_CheckedChanged({ $Settings.CheckUpdates = $this.Checked; Save-Settings })
 $btnUpdate = New-Button 'Check for updates now'
 Add-SetRow @($chkUpd); Add-SetRow @($btnUpdate)
 
-Add-SetSection 'Install' 'PC Hand-off runs straight from the file - installing is not needed. Install it if you want it in the Start menu and in Settings > Apps.'
+Add-SetSection 'Install' $(if ($FromStore) { 'PC Hand-off came from the Microsoft Store: it is in the Start menu, and you can uninstall it in Settings > Apps.' } else { 'PC Hand-off runs straight from the file - installing is not needed. Install it if you want it in the Start menu and in Settings > Apps.' })
 $btnInstall = New-Button 'Install on this PC'; $btnUninstall = New-Button 'Uninstall'
 Add-SetRow @($btnInstall, $btnUninstall)
-$btnInstall.Enabled = $RunningAsExe -and -not $IsInstalled -and -not $FromWinget
+$btnInstall.Enabled = $RunningAsExe -and -not $IsInstalled -and -not $FromWinget -and -not $FromStore
 $btnUninstall.Enabled = $IsInstalled
 $btnInstall.Add_Click({ Install-App -Launch })
 $btnUninstall.Add_Click({ Uninstall-App })
@@ -1153,7 +1156,7 @@ function Get-ProblemInfo {
     $cv = Get-ItemProperty 'HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion' -ErrorAction SilentlyContinue
     $build = "$($cv.CurrentBuild).$($cv.UBR)"
     $prod = if ([int]$cv.CurrentBuild -ge 22000) { "$($cv.ProductName)" -replace 'Windows 10', 'Windows 11' } else { "$($cv.ProductName)" }
-    $how = if ($FromWinget) { 'winget' } elseif ($IsInstalled) { 'installed' } elseif ($RunningAsExe) { 'exe, not installed' } else { 'script' }
+    $how = if ($FromStore) { 'Microsoft Store' } elseif ($FromWinget) { 'winget' } elseif ($IsInstalled) { 'installed' } elseif ($RunningAsExe) { 'exe, not installed' } else { 'script' }
     $clean = { param($t) $t = "$t"; foreach ($p in @($env:USERPROFILE, $env:COMPUTERNAME, $env:USERNAME) | Where-Object { $_ -and $_.Length -ge 3 } | Sort-Object Length -Descending) { $t = $t -ireplace [regex]::Escape($p), '<hidden>' }; $t }
     [pscustomobject]@{
         Version = "$AppVersion ($how, $(if ($IsAdmin) { 'administrator' } else { 'normal user' }), language $Lang)"
@@ -1268,6 +1271,7 @@ $UpdateDownloadWork = {
     } catch { [pscustomobject]@{ File = $null; Error = $_.Exception.Message } }
 }
 function Start-UpdateCheck([switch]$Silent) {
+    if ($FromStore) { if (-not $Silent) { Show-Msg 'PC Hand-off came from the Microsoft Store, which keeps it up to date.' | Out-Null }; return }
     $btnUpdate.Enabled = $false
     $script:UpdateSilent = [bool]$Silent
     Start-Bg $UpdateCheckWork $UpdateRepo {
@@ -1309,7 +1313,7 @@ function Start-UpdateCheck([switch]$Silent) {
                 return
             }
             Write-Log "Updated PC Hand-off $AppVersion -> $($script:UpdateInfo.Version)"
-            Start-Process $SelfExe
+            Start-Process $StartExe
             $form.Close()
         }
     }
@@ -1412,7 +1416,7 @@ if (-not $IsAdmin) {
     $admB.AutoSize = $false; $admB.Dock = 'Bottom'; $admB.Height = 32
     $admB.Add_Click({
         try {
-            if ($RunningAsExe) { Start-Process $SelfExe -Verb RunAs }
+            if ($RunningAsExe) { Start-Process $StartExe -Verb RunAs }
             else { Start-Process powershell.exe -Verb RunAs -ArgumentList "-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File `"$PSCommandPath`"" }
             $form.Close()
         } catch { }   # the person said no to the Windows prompt

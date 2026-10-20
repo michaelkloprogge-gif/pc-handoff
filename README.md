@@ -40,6 +40,8 @@ Nothing about your PC is sent anywhere. The only internet use is the update chec
 
 `.\build-exe.ps1` builds `dist\PC-Handoff.exe`: a small C# host with `pc-handoff.ps1` embedded, compiled with the C# compiler that ships with Windows - nothing to install. You can also run the script directly with `PC-Handoff.cmd`.
 
+`.\build-msix.ps1` packs that exe as `dist\PC-Handoff.msix` for the Microsoft Store (needs the Windows SDK; the Store signs it). `-Register` installs the unpacked package on this PC to try it (Developer Mode). The Store copy leaves updates to the Store.
+
 Tests: `.\tests\Test-Languages.ps1` (translation files) and `powershell -STA -File .\tests\Test-App.ps1 [-Language nl] [-Quick]` (looks at this PC for real and checks every page with test data, in a hidden window).
 
 Release: bump `$AppVersion` in `pc-handoff.ps1`, then `.\publish-release.ps1 -Notes "..."`. GitHub Actions tests, builds and publishes it, and installed copies offer the update.
