@@ -1,7 +1,7 @@
 ﻿# Opens PC Hand-off for real, visits every page and saves a picture of each to docs\screenshots (or -Out).
 # It really looks at this PC, so it takes about a minute. Nothing is changed.
 # Usage: powershell -STA -File .\tests\Screenshots.ps1 [-Language nl] [-Theme dark] [-Out folder]
-param([string]$Language = 'en', [string]$Theme = 'light', [string]$Out = (Join-Path $PSScriptRoot '..\docs\screenshots'))
+param([string]$Language = 'en', [string]$Theme = 'light', [string]$Out = (Join-Path $PSScriptRoot '..\docs\screenshots'), [int]$Width, [int]$Height)
 New-Item -ItemType Directory -Force $Out | Out-Null
 $src = [IO.File]::ReadAllText((Join-Path $PSScriptRoot '..\pc-handoff.ps1'))
 $harness = @'
@@ -15,7 +15,7 @@ function Snap([string]$Name) {
 function Wait-Jobs { $d = (Get-Date).AddSeconds(300); do { [Windows.Forms.Application]::DoEvents(); Start-Sleep -Milliseconds 100 } while ($script:Jobs.Count -and (Get-Date) -lt $d) }
 $form.StartPosition = 'Manual'; $form.Location = New-Object Drawing.Point(-3000, 0)   # off screen
 $form.Show()
-Wait-Jobs
+__SIZE__Wait-Jobs
 Snap 'start'
 Show-Page $pgCheck; Snap 'check'
 Show-Page $pgSign; Snap 'sign-out'
@@ -25,7 +25,8 @@ Show-Page $pgSet; Snap 'settings'
 $form.Close()
 $JobTimer.Stop()
 '@
-$src = $src.Replace('[void]$form.ShowDialog()', $harness.Replace('__OUT__', (Resolve-Path $Out).Path))
+$size = if ($Width -and $Height) { "`$form.MinimumSize = New-Object Drawing.Size(0, 0); `$form.Size = New-Object Drawing.Size($Width, $Height)`n" } else { '' }   # -Width/-Height: e.g. 1440x900 for the Microsoft Store
+$src = $src.Replace('[void]$form.ShowDialog()', $harness.Replace('__OUT__', (Resolve-Path $Out).Path).Replace('__SIZE__', $size))
 $src = $src.Replace("`$Settings = [ordered]@{ Language = 'auto'; Theme = 'system'", "`$Settings = [ordered]@{ Language = '$Language'; Theme = '$Theme'")
 $src = $src.Replace("if (Test-Path `$SettingsFile) {", "if (`$false) {")
 $src = $src.Replace("`$form.Add_Shown({", "`$null = ({")   # no update check

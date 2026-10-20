@@ -83,6 +83,7 @@ Check ($stepIds[-1] -eq 'msaccount') 'Microsoft account step comes last'
 $n = Get-StepsLeft
 $lvSign.Items[0].Checked = $true
 Check ((Get-StepsLeft) -eq $n - 1) 'ticking a step counts'
+Check (@(Get-Done).Count -ge 2) 'several ticks are read back'
 Check ($tileCheck.Text -match '\d' -and $tileSign.Text -match '\d') "start tiles show what is left"
 # --- 4. For the buyer, on test data ---
 $script:Spec = [pscustomobject]@{ Pc = 'Contoso Book 14'; Kind = 'Laptop'; Serial = 'ABC123'; Cpu = 'Intel Core i5-1135G7'; Cores = 4; Threads = 8; RamBytes = 16GB; RamType = 'DDR4'; RamSpeed = 3200; Slots = 2; SlotsUsed = 1

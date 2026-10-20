@@ -775,7 +775,7 @@ $lblCheckNote = New-Note
 $lvCheck = New-ListView $true @('What', 230, 'Status', 260, 'Details', 300)
 $lblCheck = New-Status
 Set-PageLayout $pgCheck $lvCheck @((New-ButtonBar @($btnCheckDo, $btnCheckAgain)), $lblCheckNote) $lblCheck
-function Get-Done { if (Test-Path $StepsFile) { try { @(Get-Content $StepsFile -Raw -Encoding UTF8 | ConvertFrom-Json) } catch { @() } } else { @() } }
+function Get-Done { if (Test-Path $StepsFile) { try { @(Get-Content $StepsFile -Raw -Encoding UTF8 | ConvertFrom-Json | ForEach-Object { $_ }) } catch { @() } } else { @() } }   # (5.1 hands a JSON array back as one item)
 function Save-Done([string]$Id, [bool]$On) {
     $list = @(Get-Done | Where-Object { $_ -ne $Id })
     if ($On) { $list += $Id }
