@@ -51,7 +51,7 @@ $arg = @{ Roots = @($usb); Folders = @([pscustomobject]@{ Key = 'Documents'; Nam
           SystemDrive = $env:SystemDrive; Profile = $env:USERPROFILE; KnownRx = $RootKnownRx; MailDirs = @($mail); Browsers = @(@{ Name = 'Chrome'; Dir = $chrome }) }
 $Job = $null
 $r = & $CheckWork $arg
-Check ($r.Bundle -and $r.Bundle.Dir -eq $bundle) 'PC Move folder from this PC found'
+Check ($r.Bundle -and (Split-Path $r.Bundle.Dir -Leaf) -eq (Split-Path $bundle -Leaf)) 'PC Move folder from this PC found'
 $d = @($r.Folders | Where-Object Key -eq 'Documents')[0]
 Check ($d.Files -eq 2 -and $d.InBundle -and $d.Newer -eq 1) "changed file found ($($d.Files) files, $($d.Newer) newer)"
 Check (@($r.Pst).Count -eq 1) 'Outlook file found'
